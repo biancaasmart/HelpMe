@@ -111,7 +111,7 @@ public class BeanCounter
                 else if (bag.get(index1) == 1 && bag.get(index2) == 2)
                 {
                     bag.remove(index1);
-                    black--;
+                    black--; 
                 }
                 else if (bag.get(index1) == 2 && bag.get(index2) == 1)
                 {
